@@ -1,0 +1,15 @@
+{
+  "name": "jest-22.0.4-before-each-order-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^21.1.9",
+    "jest": "^22.0.4",
+    "ts-jest": "^22.0.0",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "test": "jest --config __tests__/jest.json --forceExit --runInBand __tests__/index.spec.ts"
+  }
+}

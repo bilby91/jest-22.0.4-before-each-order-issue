@@ -1,0 +1,23 @@
+{
+  "verbose": true,
+  "collectCoverage": true,
+  "coverageDirectory": "coverage",
+  "coverageReporters": ["html"],
+  "rootDir": "../",
+  "transform": {
+    ".(js|ts)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "js",
+    "json"
+  ],
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "__tests__/spec_helper.ts"
+  ],
+  "setupTestFrameworkScriptFile": "./__tests__/spec_helper.ts",
+  "testEnvironment": "node",
+  "bail": true
+}
